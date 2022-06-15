@@ -7,6 +7,7 @@ from sqlalchemy import select
 
 from src.core import create_db, Base
 from src.flashcards import Flashcard
+from src.ui import UI
 
 
 logger = logging.getLogger(__name__)
