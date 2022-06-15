@@ -1,10 +1,12 @@
+#!python
+
 import logging
 
 from sqlalchemy.orm import Session
 from sqlalchemy import select
 
-from .core import create_db, Base
-from .flashcards import Flashcard
+from src.core import create_db, Base
+from src.flashcards import Flashcard
 
 
 logger = logging.getLogger(__name__)
